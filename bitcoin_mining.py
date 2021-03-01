@@ -17,8 +17,8 @@ def mine(block_number, transactions, previous_hash, prefix_zeros):
 
 if __name__=='__main__':
     transactions='''
-    Dhaval->Bhavin->20,
-    Mando->Cara->45
+    John->Dave->20,
+    Alex->Kane->45
     '''
     difficulty=2 # try changing this to higher number and you will see it will take more time for mining as difficulty increases
     import time
